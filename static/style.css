@@ -1,0 +1,60 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header {
+    margin: 1rem;
+    background-color: aqua;
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+    padding: 2rem;
+    border-radius: 1rem;
+}
+
+header img {
+    height: 3rem;
+}
+body {
+    background-image: url(https://www.svgbackgrounds.com/wp-content/uploads/2021/05/protruding-squares-orange-background.png);
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    font-family: monospace;
+}
+
+main {
+    background-color: chartreuse;
+    flex-grow: 1;
+    margin: 1rem;
+    border-radius: 1rem;
+    padding: 1rem;
+}
+
+.wrapper {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+    gap: 1rem;
+}
+
+.joke {
+    background-color: rgba(0, 0, 0, 0.5);
+    color: white;
+    padding: 1rem;
+}
+
+.buttons {
+    display: flex;
+    justify-content: space-around;
+}
+
+button {
+    padding: 0.3rem 0.4rem;
+    background-color: rgba(0, 0, 0, 0.382);
+    border: none;
+    color: white;
+    border-radius: 1rem;
+}
+
