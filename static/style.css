@@ -58,3 +58,23 @@ button {
     border-radius: 1rem;
 }
 
+.form {
+    padding: 2rem;
+    display: flex;
+    gap: 1rem;
+    border: 1px solid darkred;
+    box-shadow: 0 0 20px blue;
+    margin-top: 1rem;
+    background-color: rgb(255, 0, 72);
+}
+
+.form input{
+    flex-grow: 1;
+    background-color: aquamarine;
+    color: chocolate;
+    border-color: purple;
+}
+
+.form input:focus{
+    outline:rgb(255, 255, 255);
+}

@@ -7,6 +7,7 @@ let pathToJokes = path.join(__dirname, "static", "data");
 
 let server = http
     .createServer((req, res) => {
+        res.setHeader("Access-Control-Allow-Origin", "*");
         if (req.url == "/jokes" && req.method == "GET") {
             let jokesNames = fs.readdirSync(pathToJokes);
             let count = jokesNames.length;
